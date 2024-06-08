@@ -58,6 +58,7 @@ export const Navbar = () => {
   return (
     <AppBar position="static" elevation={0}>
       <Container maxWidth="xl">
+        <p>{tokenClaims}</p>
         <Toolbar disableGutters sx={{ display: "flex", gap: "24px" }}>
           <Typography
             variant="h6"
